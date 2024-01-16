@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "item": "my_mod_id:my_item"
+    },
+    "b": {
+      "item": "my_mod_id:my_block"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "bbb"
+  ],
+  "result": {
+    "item": "my_mod_id:my_block_with_block_entity"
+  },
+  "show_notification": true
+}

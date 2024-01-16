@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "my_mod_id",
+	"version": "${version}",
+	"name": "My Mod",
+	"description": "Example mod description. Used as a template for all my mods.",
+	"authors": [
+		"Jaggwagg"
+	],
+	"contact": {
+		"homepage": "homepage",
+		"sources": "source",
+		"issues": "issues"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/my_mod_id/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"jaggwagg.my_mod_id.MyMod"
+		],
+		"client": [
+			"jaggwagg.my_mod_id.client.MyModClient"
+		]
+	},
+	"mixins": [
+		"my_mod_id.mixins.json",
+		{
+			"config": "my_mod_id.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

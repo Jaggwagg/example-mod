@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "my_mod_id_datagen",
+  "name": "MyMod Datagen",
+  "version": "1.0.0",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "jaggwagg.my_mod_id.datagen.MyModDataGenerator"
+    ]
+  },
+  "mixins": [
+
+  ]
+}

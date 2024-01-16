@@ -1,0 +1,14 @@
+{
+  "block.my_mod_id.my_block": "My Block",
+  "block.my_mod_id.my_block_with_block_entity": "My Block With Block Entity",
+  "effect.my_mod_id.my_status_effect": "My Status Effect",
+  "entity.my_mod_id.my_hostile": "My Hostile",
+  "entity.my_mod_id.my_passive": "My Passive",
+  "gamerule.category.my_mod_id": "My Mod",
+  "gamerule.myModMyBooleanGamerule": "A boolean gamerule for my mod",
+  "gamerule.myModMyIntegerGamerule": "An integer gamerule for my mod",
+  "group.my_mod_id.my_mod": "My Mod",
+  "item.my_mod_id.my_hostile_spawn_egg": "My Hostile Spawn Egg",
+  "item.my_mod_id.my_item": "My Item",
+  "item.my_mod_id.my_passive_spawn_egg": "My Passive Spawn Egg"
+}
